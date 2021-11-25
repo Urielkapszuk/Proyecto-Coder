@@ -1,0 +1,60 @@
+/*MAIN*/
+.main__form{
+    background-color: yellow;
+    display: grid;
+    border: black solid 3px;
+    padding: 5px;
+    grid-template-columns: 1fr;
+}
+
+
+.main__noticias{
+    margin: 10px;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 400px 350px;
+    grid-column-gap: 100px;
+}
+
+.main__noticias--style{
+    border: black solid 3px;
+    padding: 10px;
+    font-family: 'Righteous', cursive;
+    background-color: yellow;
+}
+
+.main__back{
+    display: grid;
+    margin: 10px;
+    padding: 10px;
+    background-color: yellow;
+    p{
+        font-family: 'Righteous', cursive;
+        text-align: center;
+    }
+}
+
+.img__personajes{
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+}
+
+.main__formQuizz{
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+}
+
+.main__trailer{
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+}
+
+.main__blog--style{
+    border: black solid 3px;
+    padding: 10px;
+    font-family: 'Righteous', cursive;
+    background-color: yellow;
+}

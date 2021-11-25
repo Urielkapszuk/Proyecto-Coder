@@ -1,0 +1,28 @@
+/*HEADER*/
+.header__logo :hover{
+    display: inline-block;
+    transform: rotateY(180deg)
+}
+
+ul{
+    list-style-type: none;
+            li{
+                display: inline-block;
+            }
+            a{
+                    text-decoration: none;
+                    color: yellow;
+                    background-color: black;
+                    padding: 5px;
+                    margin: 10px;
+                }
+                a:hover{
+                    background-color: #FF3312;
+                    text-decoration: none;
+                    color: yellow;
+                    padding: 5px;
+                    margin: 10px;
+                }
+            }
+
+

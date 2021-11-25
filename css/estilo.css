@@ -1,0 +1,106 @@
+/*GENERAL*/
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+body {
+  background-image: linear-gradient(to bottom, grey, black); }
+
+h1 {
+  color: yellow;
+  background-color: black;
+  text-align: center;
+  font-family: 'Righteous', cursive;
+  font-size: 30px;
+  letter-spacing: 2px; }
+
+h2 {
+  color: black;
+  text-align: center;
+  font-family: 'Righteous', cursive;
+  text-decoration: underline; }
+
+h3 {
+  color: black;
+  font-family: 'Righteous', cursive;
+  text-decoration: underline; }
+
+/*HEADER*/
+.header__logo :hover {
+  display: inline-block;
+  transform: rotateY(180deg); }
+
+ul {
+  list-style-type: none; }
+  ul li {
+    display: inline-block; }
+  ul a {
+    text-decoration: none;
+    color: yellow;
+    background-color: black;
+    padding: 5px;
+    margin: 10px; }
+  ul a:hover {
+    background-color: #FF3312;
+    text-decoration: none;
+    color: yellow;
+    padding: 5px;
+    margin: 10px; }
+
+/*MAIN*/
+.main__form {
+  background-color: yellow;
+  display: grid;
+  border: black solid 3px;
+  padding: 5px;
+  grid-template-columns: 1fr; }
+
+.main__noticias {
+  margin: 10px;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: 400px 350px;
+  grid-column-gap: 100px; }
+
+.main__noticias--style {
+  border: black solid 3px;
+  padding: 10px;
+  font-family: 'Righteous', cursive;
+  background-color: yellow; }
+
+.main__back {
+  display: grid;
+  margin: 10px;
+  padding: 10px;
+  background-color: yellow; }
+  .main__back p {
+    font-family: 'Righteous', cursive;
+    text-align: center; }
+
+.img__personajes {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+
+.main__formQuizz {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+
+.main__trailer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+
+.main__blog--style {
+  border: black solid 3px;
+  padding: 10px;
+  font-family: 'Righteous', cursive;
+  background-color: yellow; }
+
+/*FOOTER*/
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: black; }
+  footer p {
+    color: yellow;
+    text-align: center; }
