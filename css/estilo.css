@@ -36,7 +36,8 @@ ul {
     color: yellow;
     background-color: black;
     padding: 5px;
-    margin: 10px; }
+    margin: 10px;
+    border-radius: 5px; }
   ul a:hover {
     background-color: #FF3312;
     text-decoration: none;
@@ -102,5 +103,14 @@ footer {
   justify-content: center;
   background-color: yellow; }
   footer p {
-    color: yellow;
-    text-align: center; }
+    color: black;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700; }
+  footer .redes {
+    display: flex;
+    justify-content: center;
+    gap: 20px; }
+    footer .redes img {
+      width: 40px;
+      height: 40px; }
