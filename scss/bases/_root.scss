@@ -1,26 +1,30 @@
 /*GENERAL*/
 body{
-    background-image: linear-gradient(to bottom, grey, black);
+    background-color: black;
 }
 
 h1{
-    color: yellow;
-    background-color: black;
+    color: white;
+    background-color: #ffaa0d;
     text-align: center;
     font-family: 'Righteous', cursive;
     font-size: 30px;
     letter-spacing: 2px;
+    margin: 25px;
+    padding: 10px;
 }
 
 h2{
-    color: black;
+    color: white;
     text-align: center;
     font-family: 'Righteous', cursive;
-    text-decoration: underline;
+    margin: 25px;
+    padding: 10px;
 }
 
 h3{
-    color: black;
+    color: white;
     font-family: 'Righteous', cursive;
-    text-decoration: underline;
+    margin: 5px;
+    padding: 5px;
 }

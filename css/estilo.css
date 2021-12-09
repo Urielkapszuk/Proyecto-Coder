@@ -1,26 +1,30 @@
 /*GENERAL*/
 @import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
 body {
-  background-image: linear-gradient(to bottom, grey, black); }
+  background-color: black; }
 
 h1 {
-  color: yellow;
-  background-color: black;
+  color: white;
+  background-color: #ffaa0d;
   text-align: center;
   font-family: 'Righteous', cursive;
   font-size: 30px;
-  letter-spacing: 2px; }
+  letter-spacing: 2px;
+  margin: 25px;
+  padding: 10px; }
 
 h2 {
-  color: black;
+  color: white;
   text-align: center;
   font-family: 'Righteous', cursive;
-  text-decoration: underline; }
+  margin: 25px;
+  padding: 10px; }
 
 h3 {
-  color: black;
+  color: white;
   font-family: 'Righteous', cursive;
-  text-decoration: underline; }
+  margin: 5px;
+  padding: 5px; }
 
 /*HEADER*/
 .header__logo :hover {
@@ -33,25 +37,30 @@ ul {
     display: inline-block; }
   ul a {
     text-decoration: none;
-    color: yellow;
-    background-color: black;
+    color: white;
     padding: 5px;
     margin: 10px;
-    border-radius: 5px; }
+    border-radius: 10px;
+    background: #1d1b1b;
+    box-shadow: 6px 6px 9px #161414, -6px -6px 9px #242222; }
   ul a:hover {
     background-color: #FF3312;
     text-decoration: none;
-    color: yellow;
+    color: white;
     padding: 5px;
     margin: 10px; }
 
 /*MAIN*/
 .main__form {
-  background-color: yellow;
+  background-color: #ffaa0d;
   display: grid;
-  border: black solid 3px;
+  border-radius: 12px;
+  background: #ffaa0d;
+  box-shadow: inset 6px 6px 6px #ab7209, inset -6px -6px 6px #ffe211;
   padding: 5px;
-  grid-template-columns: 1fr; }
+  grid-template-columns: 1fr;
+  margin: 30px;
+  padding: 5px; }
 
 .main__noticias {
   margin: 10px;
@@ -61,16 +70,21 @@ ul {
   grid-column-gap: 100px; }
 
 .main__noticias--style {
-  border: black solid 3px;
+  border-radius: 12px;
+  background: #ffaa0d;
+  box-shadow: inset 6px 6px 6px #ab7209, inset -6px -6px 6px #ffe211;
   padding: 10px;
+  margin: 30px;
   font-family: 'Righteous', cursive;
-  background-color: yellow; }
+  background-color: #ffaa0d; }
 
 .main__back {
   display: grid;
-  margin: 10px;
+  margin: 30px;
   padding: 10px;
-  background-color: yellow; }
+  border-radius: 12px;
+  background: #ffaa0d;
+  box-shadow: inset 6px 6px 6px #ab7209, inset -6px -6px 6px #ffe211; }
   .main__back h3 {
     font-family: 'Righteous', cursive;
     text-align: center; }
@@ -78,30 +92,41 @@ ul {
 .img__personajes {
   display: flex;
   flex-direction: row;
-  justify-content: center; }
+  justify-content: center;
+  margin: 10px; }
 
 .main__formQuizz {
   display: flex;
   flex-direction: row;
-  justify-content: center; }
+  justify-content: center;
+  padding: 50px;
+  margin: 10px; }
 
 .main__trailer {
   display: flex;
   flex-direction: row;
-  justify-content: center; }
+  justify-content: center;
+  border-radius: 12px;
+  background: #ffaa0d;
+  box-shadow: inset 6px 6px 6px #ab7209, inset -6px -6px 6px #ffe211;
+  margin: 30px;
+  padding: 10px; }
 
 .main__blog--style {
-  border: black solid 3px;
+  border-radius: 12px;
+  background: #ffaa0d;
+  box-shadow: inset 6px 6px 6px #ab7209, inset -6px -6px 6px #ffe211;
   padding: 10px;
+  margin: 30px;
   font-family: 'Righteous', cursive;
-  background-color: yellow; }
+  background-color: #ffaa0d; }
 
 /*FOOTER*/
 footer {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  background-color: yellow; }
+  background-color: #ffaa0d; }
   footer p {
     color: black;
     text-align: center;

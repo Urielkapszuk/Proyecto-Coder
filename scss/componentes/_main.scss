@@ -1,10 +1,15 @@
 /*MAIN*/
 .main__form{
-    background-color: yellow;
+    background-color: #ffaa0d;
     display: grid;
-    border: black solid 3px;
+    border-radius: 12px;
+background: #ffaa0d;
+box-shadow: inset 6px 6px 6px #ab7209,
+inset -6px -6px 6px #ffe211;
     padding: 5px;
     grid-template-columns: 1fr;
+    margin: 30px;
+    padding: 5px;
 }
 
 
@@ -17,17 +22,24 @@
 }
 
 .main__noticias--style{
-    border: black solid 3px;
+    border-radius: 12px;
+background: #ffaa0d;
+box-shadow: inset 6px 6px 6px #ab7209,
+inset -6px -6px 6px #ffe211;
     padding: 10px;
+    margin: 30px;
     font-family: 'Righteous', cursive;
-    background-color: yellow;
+    background-color: #ffaa0d;
 }
 
 .main__back{
     display: grid;
-    margin: 10px;
+    margin: 30px;
     padding: 10px;
-    background-color: yellow;
+    border-radius: 12px;
+background: #ffaa0d;
+box-shadow: inset 6px 6px 6px #ab7209,
+inset -6px -6px 6px #ffe211;
     h3{
         font-family: 'Righteous', cursive;
         text-align: center;
@@ -38,23 +50,36 @@
     display: flex;
     flex-direction: row; 
     justify-content: center;
+    margin: 10px;
 }
 
 .main__formQuizz{
     display: flex;
     flex-direction: row; 
     justify-content: center;
+    padding: 50px;
+    margin: 10px;
 }
 
 .main__trailer{
     display: flex;
     flex-direction: row; 
     justify-content: center;
+    border-radius: 12px;
+background: #ffaa0d;
+box-shadow: inset 6px 6px 6px #ab7209,
+inset -6px -6px 6px #ffe211;
+    margin: 30px;
+    padding: 10px;
 }
 
 .main__blog--style{
-    border: black solid 3px;
+    border-radius: 12px;
+background: #ffaa0d;
+box-shadow: inset 6px 6px 6px #ab7209,
+inset -6px -6px 6px #ffe211;
     padding: 10px;
+    margin: 30px;
     font-family: 'Righteous', cursive;
-    background-color: yellow;
+    background-color: #ffaa0d;
 }

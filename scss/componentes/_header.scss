@@ -11,16 +11,18 @@ ul{
             }
             a{
                     text-decoration: none;
-                    color: yellow;
-                    background-color: black;
+                    color: white;
                     padding: 5px;
                     margin: 10px;
-                    border-radius: 5px;
+                    border-radius: 10px;
+background: #1d1b1b;
+box-shadow:  6px 6px 9px #161414,
+-6px -6px 9px #242222;
                 }
                 a:hover{
                     background-color: #FF3312;
                     text-decoration: none;
-                    color: yellow;
+                    color: white;
                     padding: 5px;
                     margin: 10px;
                 }
