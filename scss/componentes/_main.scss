@@ -36,6 +36,9 @@ inset -6px -6px 6px #ffe211;
         font-family: 'Righteous', cursive;
         text-align: center;
     }
+    p{
+        color: white;
+    }
 }
 
 .img__personajes{
@@ -74,4 +77,8 @@ inset -6px -6px 6px #ffe211;
     margin: 30px;
     font-family: 'Righteous', cursive;
     background-color: #ffaa0d;
+}
+
+.main__list{
+    background-color: black;
 }
